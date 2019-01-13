@@ -34,7 +34,7 @@ public class AppConfig {
         } catch (PropertyVetoException e) {
             e.printStackTrace();
         }
-        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/loyalCraft_local?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false&useUnicode=true&characterEncoding=UTF-8");
+        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/name?sessionVariables=sql_mode='NO_ENGINE_SUBSTITUTION'&jdbcCompliantTruncation=false&useUnicode=true&characterEncoding=UTF-8");
         dataSource.setUser("root");
         dataSource.setPassword("root");
         dataSource.setInitialPoolSize(5);
